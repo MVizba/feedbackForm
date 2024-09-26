@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: seagreen;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: calc(100% - 20px); /* Make input fields responsive */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 100px; /* Set a fixed height for the textarea */
+    resize: none; /* Disable resizing the textarea */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    color: black;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+    color: white;
+}
+
+.checkbox {
+    margin: 15px 0;
+}

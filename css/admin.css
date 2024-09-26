@@ -1,0 +1,73 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.logout-container {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+button[name="delete"] {
+    background-color: black;
+}
+
+button[name="delete"]:hover {
+    background-color: #504f4f;
+}
+
+
+.toggle-button {
+    color: white;
+}
+
+.toggle-button.mark-as-unread {
+    background-color: #28a745;
+}
+
+.toggle-button.mark-as-unread:hover {
+    background-color: #218838;
+}
+
+.toggle-button.done {
+    background-color: grey;
+}
+
+.toggle-button.done:hover {
+    background-color: darkgray;
+}
+
+@media (max-width: 600px) {
+    table {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}
